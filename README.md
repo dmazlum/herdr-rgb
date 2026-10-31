@@ -6,7 +6,11 @@ A calm RGB layout for the [Herdr](https://herdr.dev) app. Dark and clean, with c
 where it says something: what is focused, what is working, what needs you and what just
 finished.
 
-![RGB](preview.png)
+![RGB](preview.gif)
+
+A ten-second clip: the focused agent works under a color-cycling frame, a background tab
+finishes and turns green, then the focused agent finishes and its frame comes to rest.
+[Watch it as video](preview.mp4) or see a [still](preview.png).
 
 Requires the **Herdr desktop app 0.1.10+**.
 
