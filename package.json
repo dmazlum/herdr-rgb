@@ -1,0 +1,23 @@
+{
+  "name": "herdr-rgb",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A calm RGB layout for the Herdr app: a color-cycling focus frame, drifting rainbow accents that follow agent status, and a one-shot light sweep when an agent finishes.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmazlum/herdr-rgb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dmazlum/herdr-rgb/issues"
+  },
+  "homepage": "https://github.com/dmazlum/herdr-rgb#readme",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "sync": "sh scripts/sync.sh"
+  }
+}

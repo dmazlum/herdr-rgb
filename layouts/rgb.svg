@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" width="320" height="200">
+  <defs>
+    <linearGradient id="rgb" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff6b8b"/>
+      <stop offset="0.2" stop-color="#f5e26b"/>
+      <stop offset="0.4" stop-color="#6bf5a3"/>
+      <stop offset="0.6" stop-color="#6bc8ff"/>
+      <stop offset="0.8" stop-color="#9d8bff"/>
+      <stop offset="1" stop-color="#ff7ad9"/>
+    </linearGradient>
+    <linearGradient id="rgbv" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6bc8ff"/>
+      <stop offset="0.5" stop-color="#9d8bff"/>
+      <stop offset="1" stop-color="#ff7ad9"/>
+    </linearGradient>
+  </defs>
+  <!-- window -->
+  <rect width="320" height="200" rx="10" fill="#101116"/>
+  <circle cx="12" cy="10" r="2.6" fill="#ff5f57"/>
+  <circle cx="20" cy="10" r="2.6" fill="#febc2e"/>
+  <circle cx="28" cy="10" r="2.6" fill="#28c840"/>
+  <!-- sidebar: spaces with rainbow-ringed initials -->
+  <rect x="10" y="26" width="26" height="3" rx="1.5" fill="#5f6377"/>
+  <rect x="11" y="37" width="8" height="8" rx="2.3" fill="#5b8def"/>
+  <rect x="24" y="39" width="40" height="4" rx="2" fill="#5f6377"/>
+  <rect x="6" y="50" width="70" height="14" rx="4" fill="#1e2029"/>
+  <rect x="10" y="52" width="10" height="10" rx="3" fill="url(#rgb)"/>
+  <rect x="11" y="53" width="8" height="8" rx="2.3" fill="#e3814f"/>
+  <rect x="24" y="55" width="34" height="4" rx="2" fill="#e2e4ee"/>
+  <!-- sidebar: agents -->
+  <rect x="10" y="84" width="22" height="3" rx="1.5" fill="#5f6377"/>
+  <rect x="10" y="94" width="10" height="10" rx="3" fill="url(#rgbv)"/>
+  <rect x="11" y="95" width="8" height="8" rx="2.3" fill="#1b1d25"/>
+  <rect x="24" y="97" width="38" height="4" rx="2" fill="#e2e4ee"/>
+  <rect x="12" y="111" width="6" height="5" rx="1" fill="#e3814f"/>
+  <rect x="24" y="111" width="44" height="4" rx="2" fill="#5f6377"/>
+  <!-- tabs: the active one wears a rainbow outline and sits on the card -->
+  <path d="M86 32 V22 a6 6 0 0 1 6 -6 H140 a6 6 0 0 1 6 6 V32" fill="#15161c" stroke="url(#rgb)" stroke-width="1.2" opacity="0.9"/>
+  <rect x="94" y="22" width="34" height="4" rx="2" fill="#e2e4ee"/>
+  <rect x="150" y="18" width="40" height="12" rx="4" fill="#15161c"/>
+  <rect x="156" y="22" width="26" height="4" rx="2" fill="#9a9db0"/>
+  <rect x="194" y="18" width="40" height="12" rx="4" fill="#ff8a5c" opacity="0.28"/>
+  <rect x="200" y="22" width="26" height="4" rx="2" fill="#9a9db0"/>
+  <!-- pane card: color-cycling frame, rainbow header underline -->
+  <rect x="86" y="32" width="226" height="148" rx="7" fill="#15161c" stroke="#b4b8cc" stroke-width="1.2"/>
+  <rect x="94" y="38" width="44" height="4" rx="2" fill="#e2e4ee"/>
+  <rect x="142" y="38" width="40" height="4" rx="2" fill="#5f6377"/>
+  <rect x="87" y="47" width="224" height="1.6" fill="url(#rgb)"/>
+  <rect x="96" y="58" width="120" height="3.5" rx="1.75" fill="#6bf5a3" opacity="0.8"/>
+  <rect x="96" y="68" width="160" height="3.5" rx="1.75" fill="#6bc8ff" opacity="0.7"/>
+  <rect x="96" y="78" width="96" height="3.5" rx="1.75" fill="#b18bff" opacity="0.7"/>
+  <rect x="96" y="88" width="140" height="3.5" rx="1.75" fill="#e2e4ee" opacity="0.5"/>
+  <rect x="96" y="98" width="70" height="3.5" rx="1.75" fill="#f5e26b" opacity="0.7"/>
+  <rect x="96" y="164" width="6" height="7" fill="#9d8bff"/>
+  <!-- status bar: a faint rainbow hairline -->
+  <rect x="86" y="186" width="226" height="1" fill="url(#rgb)" opacity="0.55"/>
+  <rect x="92" y="191" width="40" height="3" rx="1.5" fill="#5f6377"/>
+</svg>
