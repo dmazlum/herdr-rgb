@@ -7,7 +7,11 @@ under busy panes. Whatever needs you pulses warm. When an agent
 finishes, a soft streak of rainbow light runs once along its header or its tab. One key,
 `cmd-shift-g`, turns all the decoration off and keeps the signals.
 
-![RGB](preview.png)
+![RGB](preview.gif)
+
+The clip shows the layout in motion: the focus frame cycling while its agent works, a
+background tab finishing, and the frame coming to rest. [Video](preview.mp4) ·
+[still](preview.png).
 
 ## What you see
 
