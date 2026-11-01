@@ -1,5 +1,6 @@
 {
   "place": "none",
+  "version": "0.1.0",
   "title": "Agents",
   "cloned_from": {
     "name": "agents",

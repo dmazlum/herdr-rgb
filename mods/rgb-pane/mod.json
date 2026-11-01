@@ -1,5 +1,6 @@
 {
   "place": "none",
+  "version": "0.1.0",
   "title": "Pane header",
   "cloned_from": {
     "name": "pane",
