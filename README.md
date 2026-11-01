@@ -49,6 +49,29 @@ this repository, or by hand:
 
 `ctrl-shift-l` switches back to your own layout. Deleting the files removes it.
 
+## Updates
+
+Herdr updates its own mods, not ones you added: yours is a copy, and nothing tells you
+when this repo changes. To hear about a new version, watch the repo for releases (on
+GitHub: **Watch → Custom → Releases**). Each
+[release](https://github.com/dmazlum/herdr-rgb/releases) says what changed and whether
+`keys.json` did; merge it again when it did.
+
+The version you have is `"version"` in the mods' `mod.json`, such as
+`~/.config/herdr-app/mods/rgb-status/mod.json`. To update, ask your agent to replace the
+five `mods/rgb-*` folders and the two themes with the latest ones from
+`github.com/dmazlum/herdr-rgb`. Adding it again isn't enough: an agent never overwrites,
+it would add second copies under new names. Or from your clone:
+
+```sh
+cd herdr-rgb
+git pull
+npm run sync                # mods, themes and the layout preview
+```
+
+`layouts/rgb.json` is left alone, because `rgb-status` rewrites it while agents work. When
+a release says the layout changed, run `npm run sync -- --layout` instead.
+
 ## Cost
 
 Rainbow lines, rings and pulses are native Herdr animations: they run without the mods'
